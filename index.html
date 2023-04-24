@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engefranco</title>
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="menu bg-black">
+        <!-- <div class="row"> -->
+        <div class="col-md-12 d-flex flex-row">
+          <div class="col-md-4 mt-2">
+            <a href="index.html">
+            <img src="img/logo_engefranco_branco.png"   style="width:55%!important; margin-top: 30px;"></a>
+          </div>
+          <div class="col-md-8">
+            <div class="row" style="height:100%">
+              <div class="col-md-12 d-flex justify-content-end pr-3">
+                <div class="col-md-8 d-flex justify-content-end pr-0">
+                  <div class="area-cliente d-flex flex-row align-items-center justify-content-center mt-2 mr-4">
+                    ÁREA DO CLIENTE
+                  </div>
+                  <div class="central d-flex flex-column align-items-end mt-1">
+                    <!-- . -->
+                    <span class="central-vendas">
+                      CENTRAL DE VENDAS
+                    </span>
+                    <span class="central-telefone">
+                      (31) 0000-0000
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 d-flex justify-content-end align-items-end pt-2 pb-0">
+                <ul style="margin-bottom:0px;"> 
+   
+                  <li class="nav-item dropdown">
+                    <a class="nav-link link dropdown-toggle pb-0 mr-3" href="" >Imóveis</a>
+                      <div class="dropdown-menu">
+                        
+                        <a class="mbr-black text-white dropdown-item display-4" href="">Imovel 1</a>        
+                        <a class="mbr-black text-white dropdown-item display-4" href="">Imovel 2</a>
+                        <a class="mbr-black text-white dropdown-item display-4" href="">Imovel 3</a>
+                       
+                        </div
+                    ></li>
+                  <li class=""><a class="pb-0 mr-3" href="portifolio.html">Portfólio</a></li>
+                  <li class=""><a class="pb-0 mr-3" href="institucional.html">Institucional</a></li>
+                  <li class=""><a class="pb-0 mr-3" href="">Acompanhe sua Obra</a></li>
+                  <li class=""><a class="pb-0 mr-3" href="agendarvisita.html">Agendar Visita</a></li>
+                  <li class=""><a class="pb-0 mr-5" href="contato.html">Contato</a></li>
+                  <li class="site-icons">
+                    <i class="fab fa-facebook-square mr-2" style="font-size: 20px;"></i>
+                    <i class="fab fa-instagram" style="font-size: 20px;"></i>
+                  </li>
+                  <!-- <li class=""><i class="fab fa-instagram"></i></li> -->
+                  <li class="ml-4 site-icons">
+                    <i class="fas fa-search" style="font-size: 20px;"></i>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+   
+  </header>
+  
+  <main>
+    <div class="container-fluid pl-0 pr-0">
+      <div class="col-md-12 pl-0 pr-0">
+        <div class="video-full">
+          <video id="main_video" alt="" style="max-width: 100%;min-width: 100%;" autoplay loop controls><source src="video/Estoril27.mp4" type="video/mp4"></video>
+        </div>
+
+        <section class="" id="search" style="margin-top: 50px!important;">
+          <!-- select -->
+          <div class="col-lg-12 col-md-12 justify-content-center" >
+          <form action="">
+          
+          <div class="form-group col-md-12 text-center pt-5 mr-5">
+            <h3>Imóveis - Engefranco</h3>
+          </div>
+          <!-- select -->
+          <div class="form-group col-md-12 d-flex flex-row mt-2" style="margin-left: 50px;">
+            <div class="col-md-4">
+              <select name="bairro" id="bairro" class="form-control">
+                <option value="1">Centro</option>
+              </select>
+            </div>
+            <!-- select -->
+            <div class="form-group col-md-2" style="margin-left: 10px;">
+              <select name="quartos" id="quartos" class="form-control">
+                <option value="1">1</option>
+              </select>
+            </div>
+            <!-- select -->
+            <div class="form-group col-md-4" style="margin-left: 10px;">
+              <select name="lancamento" id="lancamento" class="form-control">
+                <option value="1">Lançamento</option>
+              </select>
+            </div>
+            <!-- select -->
+            <div class="form-group col-md-2" style="margin-left: 10px;">
+              <button id="buscar" class="btn btn-dark">Buscar</button>
+            </div>
+          </div>
+        </form>
+        </div>
+        </section>
+    
+        <div class="col-md-12">
+          <div class="row ">
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="align-self-start text"><p style="margin-top:250px!important;margin-bottom: 30px!important ;">Edifício</p>
+                    <p style="margin-top: 20px;">4 quartos, 2 suítes e 2 semi-suites;
+                      2 a 4 vagas de garagem;
+                    
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="align-self-start text"><p style="margin-top:250px!important;margin-bottom: 30px!important ;">Edifício</p>
+                    <p style="margin-top: 20px;">4 quartos, 2 suítes e 2 semi-suites;
+                      2 a 4 vagas de garagem;
+                    
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="text">Edifício</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="text">Edifício</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      
+      <section class="mt-3">
+        <div class="col-md-12">
+          <div class="row ">
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="align-self-start text"><p style="margin-top:250px!important;margin-bottom: 30px!important ;">Edifício</p>
+                    <p style="margin-top: 20px;">4 quartos, 2 suítes e 2 semi-suites;
+                      2 a 4 vagas de garagem;
+                    
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="align-self-start text"><p style="margin-top:250px!important;margin-bottom: 30px!important ;">Edifício</p>
+                    <p style="margin-top: 20px;">4 quartos, 2 suítes e 2 semi-suites;
+                      2 a 4 vagas de garagem;
+                    
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="text">Edifício</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="container">
+                <img src="img/edificio.jpg" alt="Avatar" class="image" style="width:100%;">
+                <div class="overlay">
+                  <div class="text">Edifício</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+        <section id="financial" class="mt-2 mb-5" style="margin-bottom: 40px;margin-top: 50px!important;">
+          <div class="col-md-12 d-flex flex-row" style="height: 100%;">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+              <img src="img/icone-venda.png" alt="">
+              <h4 class="text-white">Venda seu terreno</h4>
+              <button type="button" class="btn btn-outline-light mt-4">Saiba mais</button>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+              <img src="img/icone-visita.png" alt="">
+              <h4 class="text-white">
+                Agende uma visita</h4>
+              <button type="button" class="btn btn-outline-light mt-4">Clique aqui</button>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <div class="container-fluid">
+          <di class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-md-3  text-center counter-box " style="font-family: 'Roboto', sans-serif;font-size: 25px!Important;">
+                        <span class=" counter countClass" >50</span>
+                        <p class="pClass_style_count" > m²</p>
+                    </div>
+                    <div class="col-md-3 counter-box" style="font-family: 'Roboto', sans-serif;font-size: 25px!Important;" >
+                  
+                          <span ></span>
+                          <span class=" counter countClass">4</span>
+                          <p class="pClass_style_count">numero <br>de quartos</p>  </div>
+                    
+                    <div class="col-md-3  counter-box" style="font-family: 'Roboto', sans-serif;font-size: 25px!Important;">
+                          <span ></span>
+                          <span class=" counter countClass">4</span>
+                          <p class="pClass_style_count">numero <br>de suites</p>  </div>
+                    <div class="col-md-3  counter-box" style="font-family: 'Roboto', sans-serif;font-size: 25px!Important;">
+                      <span ></span>
+                      <span class=" counter countClass" style="font-family: 'Roboto', sans-serif;font-size: 25px!Important;">4</span>
+                      <p class="pClass_style_count">numero <br>de vagas</p></div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+      </main>
+    
+      <hr>
+    
+      <footer>
+        <section id="contact">
+          <div class="col-md-12 d-flex flex-row mb-5">
+            <div class="col-md-3">
+              <img src="img/logo_engefranco.png" alt="" style="width:55%!important; margin-top: 5px;margin-bottom: 5px;">
+              <div class="col-md-12 d-flex flex-column">
+                <span style="font-size: 12px;">Av. do Contorno</span>
+                <span style="font-size: 12px;">Bairro Centro</span>
+                <span style="font-size: 12px;">Belo Horizonte</span>
+                <span style="font-size: 12px;">Tel: 31 0000-0000</span>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h3>Imóveis</h3>
+              <ul >
+                <li><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Pronto para Morar</a></li>
+                <li><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Lançamento / Obras Iniciadas</a></li>
+                <li><a class="text-dark mr-5" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Lançamento</a></li>
+                <li><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Portfólio</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <a href="" class="text-dark d-flex flex-row align-items-center" ><i class="fas fa-angle-right" style="margin-right: 10px;"></i><span>INSTITUCIONAL</span></a>
+            </div>
+            <div class="col-md-3">
+              <a href="" class="text-dark d-flex flex-row align-items-center"><i class="fas fa-angle-right" style="margin-right: 10px;"></i><span>ÁREA DO CLIENTE</span></a>
+              <a href="" class="text-dark d-flex flex-row align-items-center" ><i class="fas fa-angle-right" style="margin-right: 10px;"></i><span>CONTATO</span></a>
+              <ul>
+                <li class="mr-5"><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Quero comprar</a></li>
+                <li><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>SAC / Sou cliente</a></li>
+                <li class=""><a class="text-dark " href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Quero ser fornecedor</a></li>
+                <li><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Trabalhe Conosco</a></li>
+                <li class="mr-5"><a class="text-dark" href="" style="font-size: 12px;"><i class="fas fa-angle-right" style="margin-right: 10px;"></i>Quero vender meu imóvel</a></li>
+                <li></li>
+                  <ul>
+                    <li class=""><i class="fab fa-facebook-square"></i></li>
+                    <li class=""><i class="fab fa-instagram"></i></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+         
+        </section>
+        <div class="whatsapp" style="position: fixed;
+        bottom: 20px;
+        right: 20px;">
+          <a href="https://wa.me/5531999813151?text=Olá%20estou%20no%20seu%20site%20e%20gostei%20dos%20imóveis,%20você%20pode%20me%20ajudar?" target="_blank"><img src="img/whatsapp.png" alt="" width="70px"></a>
+        </div>
+      </footer>
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/countUp.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+
+      $("#main_video").play();
+    })
+      // $(document).ready(function() {
+      //   $('select').select2();
+      // })
+  </script>
+  <!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'progressbar',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+</body>
+</html>
