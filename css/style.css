@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+  background-color: rgba(0,0,0,.5);
+  min-height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 102;
+  width: 100%;
+}
+
+ ul li {
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none; 
+  list-style-type:none ;
+}
+
+ul li a{
+  color:#ffffff;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* text-shadow: 1px 1px rgba(0,0,0,0.7); */
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+ul li a:hover{
+  color:#ffffff;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3b3b3b;
+}
+
+h2{
+  /* font-family: 'Fira Sans',sans-serif; */
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0em;
+}
+div,img.parallax{
+  background-attachment: fixed!important;
+}
+select{
+  height: 100%;
+}
+
+#financial{
+  height: 320px;
+  background: rgb(37, 37, 37);
+}
+
+.whatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.area-cliente{
+  border:2px solid rgba(255,255,255,0.7);
+  padding: 5px 10px;
+  font-size: 14px;
+  color:#ffffff;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  cursor: pointer;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
+  -webkit-font-smoothing: antialiased;
+}
+
+.central-vendas, .central-telefone{
+  color: #ffffff;
+  font-weight: 550;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  text-shadow: 1px 1px rgba(0,0,0,0.7);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+.site-icons{
+  color: #ffffff;
+}
+
+.video-full{
+  z-index: 101;
+  width: 100%;
+  min-width: 100%;
+  clear: both;
+}
+/* Section
+ */
+
+ .section-edificio{
+  height:400px;width:100%; margin-top:0px;margin-bottom: 10px!important;
+ }
+.div-image{width:100%;
+ margin-left:0px!important;
+ }
+ /* img {position: relativewidth: 65%!important;
+  position: absolute;
+  left: 50%;
+  margin-left:-256px;
+} */
+.li-icon-estilo{
+  font-size: 12px!important;color:white;margin-bottom: 0px!important;
+}
+.slide-style{
+  height:400px;width:100%; margin-top:0px;margin-bottom: 50px!important;;
+}
+.caixa-texto{
+  padding-top:20px;padding-bottom:20px;
+}
+.form-edificio{
+  margin-left: 20px;margin-top:20px;margin-bottom:20px; padding-left:40px; border:1px solid black;
+}
+.label-form{
+  font-weight:bold; color: #475764; font-size:12px;
+}
+.label-tel{
+  font-weight:bold; color: #41698a; font-size:12px;
+}
+.btn-estilo{
+  margin-top:10px;font-weight:bold; border-radius:0px;
+}
